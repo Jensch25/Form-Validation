@@ -1,0 +1,39 @@
+
+
+    body {
+        background: linear-gradient(#DC143CFF, #cb07ee);
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-family: "Lucida Grande", sans-serif;
+    }
+
+    .sign-up-container {
+        background: #f67506;
+        color: blue;
+        padding: 30px;
+        border-radius: 5px;
+        border: silver solid 1px;
+        width: 30vw;
+        height: 35vh;
+        justify-content: space-around;
+    }
+
+
+    input[type=text], input[type=password] {
+        width: 95%;
+        padding: 3px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid blue;
+        border-radius: 2px;
+
+    }
+
+    .form-error {
+        color: crimson;
+        font-size: 11px;
+        min-height: 16px;
+
+    }
